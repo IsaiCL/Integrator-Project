@@ -1,0 +1,443 @@
+<DOCTYPE html>
+<html>
+    <head>
+     <meta charset="utf-8">
+        <title>Registro</title>
+        <link rel="stylesheet" type="text/css" href="PaginaRegistrocss.css">
+        
+        <style>
+        body {
+
+ 
+  
+  background-image: url("https://static.vecteezy.com/ti/vettori-gratis/p3/2261357-tramonto-valle-paesaggio-illustrazione-vettoriale.jpg"), linear-gradient(to bottom, rgb(240, 135, 15) 0%,rgb(178, 14, 211) 100%);
+  background-position: center 0px bottom;
+  { float: left; width: 200px; margin: 20px 40px; }
+  background-size: 17rem;
+  background-repeat:no-repeat;
+ 
+ 
+}
+
+{
+font-family:calibri;
+    font-size:18px;
+}
+
+
+h1 {
+    text-align:left;
+    font-family:verdana;
+}
+
+h2 {
+    text-align:left;
+    font-family:verdana;
+}
+span {
+    color:rgb(8, 8, 8);
+}
+
+primero {
+    color:white;
+}
+form{
+    margin:auto;
+    width:800px;
+    padding:0.5em;
+    
+    border-radius:0.5em;
+    border:1px solid black;
+   
+}
+
+form div+div {
+    margin-top:0.5em;
+}
+
+Input:focus textarea:focus {
+    border-color:rgb(12, 12, 12);
+}
+
+label {
+    display:inline-block ; 
+    width:80px;
+    text-align:right;
+}
+
+textarea {
+    vertical-align:top;
+    height:20em;
+    resize:vertical;
+}
+
+button {
+    padding-left:35px;
+    padding-right:35px;
+}
+
+button {
+    margin-left:.5em;
+}
+
+
+
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  
+  padding: 20px 0 30px 0;
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 1px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+  
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-10%);
+  border: 2px solid rgb(228, 50, 50);
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #d81b1b;
+  border: 1px solid rgb(223, 16, 16);
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 20%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+
+</style>
+
+
+</head>
+    <body>
+    <h1><span><b>Welcome to</b></span></h1>
+    <h2><span><b>DYINED!</b></span></h2>
+    <p class="primero">
+    Please fill out the following fields as </p>
+    <p class="primero">
+    seriously as possible Thanks!</p>
+    <form action="URL" method="post">
+    <div>
+     <label for="Name"><span>Name(s):</span></label>
+    <input type="text" id="Name" maxlength="18">
+    </div><br>
+    <div>
+    <label for="Surname"><span>Surname(s):</span></label>
+    <input type="text" id="Surname" maxlength="27">
+    </div>
+    <div>
+    <label for="Email"><span>Email:</span></label>
+    <input type="Email" id="Email" placeholder="example@example.com">
+    </div><br>
+    <div>
+    <label for="password"><span>Password:</span></label>
+    <input type="password" id="password">
+    </div><br>
+    <div>
+    <label for="password"><span>Repeat password:</span></label>
+    <input type="password" id="password">
+    </div><br>
+    <div>
+    <label for="Gender"><span>Gender</span></label>
+  <input type="radio" id="Gender">Male
+  <input type="radio" id="Gender">Female
+  
+  </select>
+    </div><br>
+    
+    <div>
+    <label for="Occupation"><span>Occupation</span></label>
+  <input type="radio" id="Ocupación">Teacher
+  <input type="radio" id="Ocupación">Student
+  
+  </select>
+    </div><br>
+    <div>
+    <label><span>Date of birth:</span></label>
+    Day
+    <select name>
+    <option></option>
+    <option>01</option>
+    <option>02</option>
+    <option>03</option>
+    <option>04</option>
+    <option>05</option>
+    <option>06</option>
+    <option>07</option>
+    <option>08</option>
+    <option>09</option>
+    <option>10</option>
+    <option>11</option>
+    <option>12</option>
+    <option>13</option>
+    <option>14</option>
+    <option>15</option>
+    <option>16</option>
+    <option>17</option>
+    <option>18</option>
+    <option>19</option>
+    <option>20</option>
+    <option>21</option>
+    <option>22</option>
+    <option>23</option>
+    <option>24</option>
+    <option>25</option>
+    <option>26</option>
+    <option>27</option>
+    <option>28</option>
+    <option>29</option>
+    <option>30</option>
+    <option>31</option>
+    </select>
+    Month
+    <select name>
+        <option></option>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+    </select>
+    Year
+    <select name>
+    <option></option>
+    <option>1970</option>
+    <option>1971</option>
+    <option>1972</option>
+    <option>1973</option>
+    <option>1974</option>
+    <option>1975</option>
+    <option>1976</option>
+    <option>1977</option>
+    <option>1978</option>
+    <option>1979</option>
+    <option>1980</option>
+    <option>1981</option>
+    <option>1982</option>
+    <option>1983</option>
+    <option>1984</option>
+    <option>1985</option>
+    <option>1986</option>
+    <option>1987</option>
+    <option>1988</option>
+    <option>1989</option>
+    <option>1990</option>
+    <option>1991</option>
+    <option>1992</option>
+    <option>1993</option>
+    <option>1994</option>
+    <option>1995</option>
+    <option>1996</option>
+    <option>1997</option>
+    <option>1998</option>
+    <option>1999</option>
+    <option>2000</option>
+    <option>2001</option>
+    <option>2002</option>
+    </select>
+    </div><br>
+    <div>
+     <label for="Country"><span>Country</span></label>
+    <select name>
+    <option></option>
+    <option>Mexico</option>
+    <option>EEUU</option>
+    <option>Canada</option>
+    <option>Brazil</option>
+    <option>France</option>
+    </select><br>
+    
+     <br><label for="Language"><span>Idiom</span></label>
+    <select name>
+        <option></option>
+   <option>Español(Latinoamerica)</option>
+        <option>Español(España)</option>
+        <option>Inglés</option>
+        <option>Fránces</option>
+        <option>Japones</option>
+        <option>Portúgues</option>
+    </select>
+    </div><br>
+    <div>
+    
+    <div>
+      <label for=""></label><br>
+      
+      <input type="checkbox" name="to accept">I declare that I have read and accept the conditions of use.
+        
+    </div>
+    
+    </form>
+
+
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <h2 style="text-align:center">Login with Social Media or Manually</h2>
+      <div class="vl">
+        <span class="vl-innertext">or</span>
+      </div>
+
+      <div class="col">
+        <a href="#" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+         </a>
+        <a href="#" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+          </i> Login with Google+
+        </a>
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          <p>Or sign in manually:</p>
+        </div>
+
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+      </div>
+      
+    </div>
+  </form>
+</div>
+
+<div class="bottom-container">
+  <div class="row">
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Sign up</a>
+    </div>
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Forgot password?</a>
+    </div>
+  </div>
+</div>
+
+
+    
+    </body>
+</html>
